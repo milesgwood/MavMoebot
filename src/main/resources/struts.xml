@@ -51,4 +51,11 @@
             <result name="error">error.jsp</result>
         </action>
     </package>
+    
+    <package name="netbeansBullshit" namespace="/" extends="struts-default">
+        <action name="netbeans-tomcat-status-test" class="com.milesgwood.mavenproject2.controller.NetbeansTomcatTest">
+            <result name="success"></result>
+            <result name="error">error.jsp</result>
+        </action>        
+    </package>
 </struts>

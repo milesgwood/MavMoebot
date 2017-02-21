@@ -13,4 +13,5 @@ com/milesgwood/mavenproject2/controller/HateIt.class
 com/milesgwood/mavenproject2/controller/ListParentAjax.class
 com/milesgwood/mavenproject2/hibernate/Hibernate.class
 com/milesgwood/mavenproject2/model/DbHandler.class
+com/milesgwood/mavenproject2/controller/NetbeansTomcatTest.class
 com/milesgwood/mavenproject2/model/Songs.class

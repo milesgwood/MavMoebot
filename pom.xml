@@ -31,14 +31,6 @@
             <scope>test</scope>
         </dependency>
 
-        <!-- Hiber JPA provided -->
-        <dependency>
-            <groupId>org.hibernate</groupId>
-            <artifactId>hibernate-entitymanager</artifactId>
-            <version>4.3.7.Final</version>
-            <scope>provided</scope>
-        </dependency>
-
         <!-- CDI provided -->
         <dependency>
             <groupId>javax.enterprise</groupId>
@@ -112,6 +104,6 @@
 
     </build>
     <version>1.0-SNAPSHOT</version>
-    <name>MavenMoeBot</name>
+    <name>MavenWithTarget</name>
     <description>An Archetype with JPA 2.1 ; Struts2 ; Jquery ; BootStrap </description>
 </project>

@@ -1,0 +1,54 @@
+
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+"http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+    <!-- Dev Mode TRUE ; disable in production! -->
+    <constant name="struts.devMode" value="true" />
+
+    <package name="moebot" extends="struts-default">
+                
+        <!-- Actions start here --> 
+        <action name="start" class="com.milesgwood.mavenproject2.controller.StartBot">
+            <result name="success" type="stream"></result>
+            <result name="error">error.jsp</result>
+        </action>
+        <action name="getLyrics" class="com.milesgwood.mavenproject2.controller.GetLyrics">
+            <result name="success" type="stream"></result>
+            <result name="error">error.jsp</result>
+        </action>
+        <action name="makeReview" class="com.milesgwood.mavenproject2.controller.MakeReview">
+            <result name="success" type="stream"></result>
+            <result name="error">error.jsp</result>
+        </action>
+        <action name="getChat" class="com.milesgwood.mavenproject2.controller.GetChat">
+            <result name="success" type="stream"></result>
+            <result name="error">error.jsp</result>
+        </action>
+        <action name="getNextShow" class="com.milesgwood.mavenproject2.controller.GetRandomShowHibernate">
+            <result name="success" type="stream"></result>
+            <result name="error">error.jsp</result>
+        </action>
+        <action name="justListen" class="com.milesgwood.mavenproject2.controller.GetRandomShowHibernate">
+            <result name="success" type="stream"></result>
+            <result name="error">error.jsp</result>
+        </action>
+        <action name="listenAndRate" class="com.milesgwood.mavenproject2.controller.GetRandomShowHibernate">
+            <result name="success" type="stream"></result>
+            <result name="error">error.jsp</result>
+        </action>
+        
+        <action name="loveIt" class="com.milesgwood.mavenproject2.controller.LoveIt">
+            <result name="success" type="stream"></result>
+            <result name="error">error.jsp</result>
+        </action>
+        <action name="hateIt" class="com.milesgwood.mavenproject2.controller.HateIt">
+            <result name="success" type="stream"></result>
+            <result name="error">error.jsp</result>
+        </action>
+        <action name="noComment" class="com.milesgwood.mavenproject2.controller.NoComment">
+            <result name="success" type="stream"></result>
+            <result name="error">error.jsp</result>
+        </action>
+    </package>
+</struts>
